@@ -1,0 +1,7 @@
+CAMBIOS SEMÁNTICOS - SEO
+
+- Título a todos los HTML en línea 15
+- Corrección semántica de los h3 - h5 en los Cards
+- Corrección de los buttons en los cards
+
+* Las imágenes ya tenían nombrados los ALT *

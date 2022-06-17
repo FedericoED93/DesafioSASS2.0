@@ -1,0 +1,54 @@
+    .footer-1{
+        background-color: map-get($coloresgenerales, color2);
+    
+    .footer_search{
+        padding-top: 30%;
+    }
+    
+    .footer_button{
+        border-color:map-get($coloresgenerales, color1 );
+    }
+    
+    .footer_button:hover{
+        background-color: var(--color--primario);
+        border-color: #7D7B76;
+    }
+
+}
+
+    .footer-2{
+        display: none;
+    }
+
+    
+    @media (max-width: 991.98px){
+
+        .footer-1{
+            display: none;
+        }
+    
+        .footer-2{
+            display: block;
+            background-color: map-get($coloresgenerales, color2);
+        
+        .navbar-brand img{
+            width: 100%;
+        }
+    
+        .footer-2-mod a{
+            color: #7D7B76;
+        }
+    
+        .footer-2-mod a:link{
+            color: #7D7B76;
+        }
+    
+        .footer-2-mod a:hover{
+            font-weight: bold;
+        }
+    
+        .footer-2-mod a:visited{
+            color: #FF5858;
+        }
+    }
+    }
